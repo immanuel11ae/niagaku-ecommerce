@@ -1,0 +1,6 @@
+{
+  "name": "Niagaku",
+  "description": "Aplikasi e-commerce modern Indonesia dengan pengalaman berbelanja mulus, manajemen toko, dan pelacakan pesanan real-time.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
