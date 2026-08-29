@@ -1,5 +1,22 @@
 import { Product, Address, Order, TrackingInfo, NotificationItem, Conversation } from '../types';
 
+import cameraMirrorlessPro from '../assets/images/camera_mirrorless_pro_1787992344613.jpg';
+import cameraBackDisplay from '../assets/images/camera_back_display_1787992361974.jpg';
+import smartwatchAmoled from '../assets/images/smartwatch_amoled_1787992375056.jpg';
+import wirelessHeadphones from '../assets/images/wireless_anc_headphones_1787992386534.jpg';
+import kemejaNavy from '../assets/images/kemeja_navy_pria_1787992400356.jpg';
+import sneakersPutih from '../assets/images/sneakers_putih_1787992413434.jpg';
+import mugKeramik from '../assets/images/mug_keramik_artisan_1787992427038.jpg';
+import keyboardMekanik from '../assets/images/keyboard_mekanik_rgb_1787992441882.jpg';
+import ergonomicChair from '../assets/images/ergonomic_office_chair_1787992456852.jpg';
+import pourOverCoffee from '../assets/images/pour_over_coffee_set_1787992469376.jpg';
+import leatherDuffel from '../assets/images/leather_duffel_bag_1787992481810.jpg';
+import bambooOrganizer from '../assets/images/bamboo_desk_organizer_1787992495049.jpg';
+import brassGlobeLamp from '../assets/images/brass_globe_lamp_1787992511482.jpg';
+import linenNapkins from '../assets/images/linen_napkins_set_1787992525352.jpg';
+import blusSutra from '../assets/images/blus_sutra_beige_1787992536960.jpg';
+import gelasKeramik from '../assets/images/gelas_keramik_artisan_1787992549798.jpg';
+
 export const INITIAL_PRODUCTS: Product[] = [
   {
     id: 'prod-smartwatch-2024',
@@ -13,8 +30,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     salesCount: 120,
     location: 'Jakarta Barat',
     images: [
-      'https://lh3.googleusercontent.com/aida-public/AB6AXuCIIaRTCg_4gVD1Lu4k32m_nd_n2JGCN0VzeGlB-igueajjq81pLuSg0C1sKHt1_LLigMSapZ3JBTT9K7HdeYuurWoIaWNiCS4R02bNuEunIOU-iY6mOmZLcrK4twKgzYRz4vou4yVKpntEU_sXdmC0PFaIz6O4VMZyjyCSZqk0CJYHTdeDXe029ahCT6Bvyg48NvEjEaCC9Wuy-JElOKah-4R3eiKDI7akh2c4xWl-E7JNCD78dyi0',
-      'https://lh3.googleusercontent.com/aida-public/AB6AXuD07BuKptMmEZ4kfYtAEEa0LVXnDqLniHMB2eYJCuShoJwaYYsTmVDpZbL8ShXDJa1_BwlXjXHJLqsSp2GVIvCDKllncEivE5ZZQhc46tk7p2cRSfCyQc3OOE64bMnMbfOS4ZxvP6QizVO3dcj2mRfhZvy8q_pENWFSkUL6sn6Luq8VS5ZmZtexK4NveMCYc88ZqQu-ovmzlYLqOYJfj1fzZ8zwtiLVavy4vP2zPFCNyZdaF9TwiVri',
+      smartwatchAmoled,
     ],
     stock: 5,
     stockLeft: 5,
@@ -46,8 +62,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     salesCount: 120,
     location: 'Jakarta Selatan',
     images: [
-      'https://lh3.googleusercontent.com/aida-public/AB6AXuC1elQQyUYdwFCudM1rglwk5HG3MfgnD1Z3229fJhGCTAOi32Wgd8Q1_4DSOOEUfjGHftWn1ILkYK20ioX13dGnsvLXnV5yhQh9bYNkMpuYGXehxD6L3VOHotS-Vh3b63A3ugZ3TtSxS0fxnviw8LgO39_wlGVvwiYzr5xI6WzPQxXmriHslbImsKAl9OZyQ-s6ylWNrYKA4Fsx_5qxrC9k3tGz5OvT5G38xwaVUX29wkowPaPRkepP',
-      'https://lh3.googleusercontent.com/aida-public/AB6AXuCYS_8wbgeyf2POdIlRTLf_YgCW3n9vB37_x_plNbRKiaGJ-OJP6X4gz4LZfGb19ldMgF_TIsiI02WpT36yUBJEMue3lUTGn0iHq8oZ1TbmYL6IeKZSsbHn1EQuVW7JwPxw5uhRTQy4ulTOan-qQEqkTyLtRXjVus1NW8S8CNNUnTs-WLPCdGJ1y8YDk7Svaoi6lPfNo1hvSEse2yToFCYYu4zSIXS9dDdleP6-h4l2k2vDnXFIiA3h',
+      wirelessHeadphones,
     ],
     stock: 28,
     stockLeft: 28,
@@ -78,7 +93,8 @@ export const INITIAL_PRODUCTS: Product[] = [
     salesCount: 65,
     location: 'Jakarta Pusat',
     images: [
-      'https://lh3.googleusercontent.com/aida-public/AB6AXuB0Sjr_M2y2azlVG9akzKkMu7ipJ_gXC8jeJp3Xnmjw-bZFuH3WJQPFolJZv5mkiivCadSLRUWbcJoKy7RHzNpasnT4mSrl_w2x96G9sAvFJuKQcEGPKmAwLzruxJvVULp7owhqiUzOc9nvF0nwmwfcQOOwdhFspelGHyhYLO8kIwYGOgzodYeeQuEwH6u2HVKh7fOkHuzZUJwO6LocuM6PqfDk7TE7R-AjsJXwxz88HnW6ZBhI2ZH3',
+      cameraMirrorlessPro,
+      cameraBackDisplay,
     ],
     stock: 5,
     stockLeft: 5,
@@ -108,7 +124,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     salesCount: 120,
     location: 'Jakarta Selatan',
     images: [
-      'https://lh3.googleusercontent.com/aida-public/AB6AXuCQkWHr6yIXXo5wFZpMbKRjqnYdzwMXfSa2HaJyKaW1PigU-_TkilgSGFmQWRbXEhV-vBQ4wR09ouKprBDqfYYq1HXUfsXvErNuxYgi2BI2aT3d4W1M0TJtLU0PEMYoBz_EIBNvocnYPS3HRepVmA1qeVItSw_ZpCu8JIwihK6fusEjZ-2EhYDxaD8O-bKKrkzlTlRL1ydixPCldP_OmjRuS9LgBYqQzhxvjNX7Q-QhCwqDoYJCpAhg',
+      kemejaNavy,
     ],
     stock: 45,
     description:
@@ -136,7 +152,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     salesCount: 45,
     location: 'Bandung',
     images: [
-      'https://lh3.googleusercontent.com/aida-public/AB6AXuCdwxx8JkepbhUEKyhTBghUHjeeXLobJcGuKYlYu-kMQr7jboIq7nI8bciyXTC5XOKLw_9QGCUPSQenEvQB5-Ap85RTCVryzlDAyc3NoMTZArPtt3rXzDFsnmGg2Xuxq6Qm7M5TAC7nMrFW1LnIYRsq8GHJZo0t6BQnPjAoCiCaBG8RgZ8oAU2R137mp7gowUi9u219XNd19k5Iq_lCmdZ0koREvK9ibFaPmdeoev6AgOEdTACXwRfC',
+      sneakersPutih,
     ],
     stock: 30,
     description:
@@ -163,8 +179,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     salesCount: 520,
     location: 'Yogyakarta',
     images: [
-      'https://lh3.googleusercontent.com/aida-public/AB6AXuDWWTX--mGvBZWSb0EqcaFktDFqajr8nvLDSWNWZg_kkqHKoqKBAPg7FZbYtyTewQq0YHPCwGOBi_kAMod9YPb2Z26mUzthafHmtBG6eJGQsL9rNh3JupPA8DoAL2JHArTlghB8pOrcdKcE0U-mCBh9m8Rnn1_xhyhe_DdlZq_GMQ2XYPtUkwWR1-TFpXvP_DrIDPNy6dN5YOsPK_6Q3Elkq4kzl9Tt9QFOoJ_cmNij3oQOJOPJVmJu',
-      'https://lh3.googleusercontent.com/aida-public/AB6AXuAJbajhby6aW5bU3-zHtIMMarzQMmYz5bqplOcM5WinextXe_Xsl-k0vciQO413gdu3iy0KImXBBKhOiW73d6qhm5y2DcWSlaYO842vp6i-5VL22mX-XA6RNHbkkCX06958SjIQTYbJhFduglyckK9EYyN8MiO6nU5jUjKERHmHzCEqTu8JKSflmr0Je6dFdIOD-TNa9pgG1xBzvSSQChyvcbqHDWH5EXXBy-PWhqHSfMTorW6XR8BG',
+      mugKeramik,
     ],
     stock: 50,
     description:
@@ -191,8 +206,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     salesCount: 240,
     location: 'Jakarta Barat',
     images: [
-      'https://lh3.googleusercontent.com/aida-public/AB6AXuCiLNCDaROKEHaH8bktgtpbZ-iF2i9F0FwaasisDjNgAv_L_z1ZYRzM40E4dq87Bj623brO3TkCDDqDO-Boe9AMNbWT8D1YiBaxStcre9u-nmMDATmRPOD2WJSQNBUmREFPDNrGo3gA54_Wh-wRq2OB42VqPPpmsUodz_1nUz6V8cGQjTbB46Mf7dq2Deyt_1MG1M-e5Gom1W0EUgrWn8mZLZA94BJMz3LYDEZVd4fW5i_oWJ1_30hN',
-      'https://lh3.googleusercontent.com/aida-public/AB6AXuCCTUHWNzMUzgry8PfLQDtSRil7xNgD86yMaJISQka6ODcs5KYz5bxiL0Qku6JNZGRmXjfj0Y8QUzC9Ziq8PrOE0aPuAwtkw83Mnmi8MksE5UhuMPFwx-JZNtmyK2w_N2Q5Q7YjwoyqQC9vK_7P91M-ZmEXPwtOuiT9NS-D4G2G4jBK2IRYFXs8cLaGk-0T2EQYvKVKHQbMSAvNsbq5zElofYIKd5l2pbG0Cm_HpPxdC4i8_AG5rloB',
+      keyboardMekanik,
     ],
     stock: 18,
     description:
@@ -220,7 +234,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     salesCount: 78,
     location: 'Tangerang',
     images: [
-      'https://lh3.googleusercontent.com/aida-public/AB6AXuATXzd2EcjporUqE-JSaLhLQ7PJBdDdA-cOi4evlBN9yZt_JMc4OlxVhVeaJLsw3_-NZXcLVvxatagPffHHg_krt_lGlo0GF60U46bNz3jS6EQ_sM1Lr5YKwhDq7MHEOGejDDCTTunEwkY6165hI64yhPtmgXESswrqiq-4MthHo53jOpPmA4pfjV2fZ1Eu8qMTXAMLefXjG3XIVUOZvuGtx2tDXrhNG0PgmHWzXlrWY0EjnAbAB_S_',
+      ergonomicChair,
     ],
     stock: 12,
     description:
@@ -247,7 +261,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     salesCount: 110,
     location: 'Jakarta Barat',
     images: [
-      'https://lh3.googleusercontent.com/aida-public/AB6AXuBUMcG6uTiqGbIZrcLr-G3fofJfcsFR1tbpvr-mRZdABt_uuoYlhzj-a7rRXG9dWI1WMZ2jpmsYmg2BkVE6zt3fZTmTd8AQ8OHQGSLLTQ-b37nEnNKLrVpLAezvUSYB-1P9ZuTeL46LLjycnKhoz0re7GOKtkIHds0BsWNFNGyW1k7Aplbtxj8k6De8v2Emd6fA7wAYT7zWvuGlmXbIzeLQOwJwXz99zBvzImX22WyDowMgpJTfiAAM',
+      pourOverCoffee,
     ],
     stock: 22,
     description:
@@ -273,7 +287,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     salesCount: 52,
     location: 'Surabaya',
     images: [
-      'https://lh3.googleusercontent.com/aida-public/AB6AXuCCQ_t3xF6oSYm5EzjkpCU-QBmIcgUOwOEOeId2o02sjjtvcLeiAxcqU0bSBd1SVnFOVtqWCGDspKv4RiYb0eEN285rgFfeP_D6UMlxIwXRk_XnZtEgDlReJ2KgY_5K5d5xIvYC6m947Y_ftxDMwpFCIhpUWgeCmAlcOph4i-c2b4miWwkGNdiGFbCpYgVSgmCwtTqwIOfY9NWdQ8JpVUvFtZ31asP_Iy08-EHEm7jw_xUQ9oPvML0n',
+      leatherDuffel,
     ],
     stock: 9,
     description:
@@ -300,7 +314,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     salesCount: 85,
     location: 'Jakarta Utara',
     images: [
-      'https://lh3.googleusercontent.com/aida-public/AB6AXuAzuGz4vrzgmyEY7nrUMxT4D4GscDsTt3I8zBqS1jOsW6g-BDpaDwC4fZjPky4sDUFA-T6VV8RC20-0HxeGdXOKeoGlkPT2-0xxBVX3NT7JU4K1JxOX9J46ckzdwGlref7qILqZEdwAFf0G7w0WOtzy4RTnD6TVYRVa1nXCMYQz6C55iTM4e7Vvz3-tcyN9SIMmPjacCmaFo_9_gzA3X9qVKYMTwEyuIAolA3GNy6NMi8qD18KlYTWg',
+      bambooOrganizer,
     ],
     stock: 40,
     description:
@@ -326,7 +340,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     salesCount: 45,
     location: 'Jakarta Barat',
     images: [
-      'https://lh3.googleusercontent.com/aida-public/AB6AXuDv-DW0nJpq9tQPsjevjIyQjwh3tXLQoSZluS0RuApLzboCew5PQDt3kiPhuzkWnrBNpICKQ2wawJHlcFHBU5uwK7Vx0J1oB8nzRZaWjSHp4IK75NosaShU9dyXMjO4E1LQX3NiADia7KTiNmLU3hVT-tB5O_o1z8P1XVGeDb8kFnzlhcm4itVA78FGo1ziK5n1UG_xmcprwQumlHeT3UJwILWWuL5GbVsZSgDu8FlNEOpQjkcqE5x3',
+      brassGlobeLamp,
     ],
     stock: 15,
     description:
@@ -354,7 +368,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     salesCount: 340,
     location: 'Bali',
     images: [
-      'https://lh3.googleusercontent.com/aida-public/AB6AXuC8a1Fa8RSAxm-a8HIUPe2K1zvIRnoyYQTRc_hY5Xm8f5mID5Thy9bWLHfnPIA_DZqtKrfNVsaSyx-FtilX3P4wMTJFxcHk1kCC_kKQrCPIC-xMoZDfaMA3jXMLxILAwboE-SjiQyxDPIZVXKwlD3eNcFPQcQ5OiTTIxNJDqeUaNSrVGya2x6BwSwuE_SDD-NQdumaR3xaYzfWX1hQIEfQ6ruui4tWYiz9eNXnHwIa5CdqEVlXY-Vfx',
+      linenNapkins,
     ],
     stock: 60,
     description:
@@ -405,8 +419,7 @@ export const INITIAL_ORDERS: Order[] = [
         variant: 'Brown Switch, RGB',
         price: 1450000,
         quantity: 1,
-        image:
-          'https://lh3.googleusercontent.com/aida-public/AB6AXuBm8VdyqkaZg_DNQvyr_bQFGbGot5lXr8odZ9RcoMnsIbHWRkJ5qq4ycc8N_hIvi8ln0xfKx4fq_pggufJB3fpH4LSuo0H1HIHB77uCsI-yMDN0-TN9KHT7svr3bJAZe5Wv4kG4g6gLt3Dr0hwmkHLKWpvRhF6MMQoDZrH22U5SBSoDTsZ6M6CVbhy1BxG8bmSe9fHbiolu-UDv4b12dEsKLe2xEhMIR89_a9bajHbjM_XDVDpNbUxS',
+        image: keyboardMekanik,
       },
     ],
     totalPrice: 1450000,
@@ -426,8 +439,7 @@ export const INITIAL_ORDERS: Order[] = [
         variant: 'Black',
         price: 4299000,
         quantity: 1,
-        image:
-          'https://lh3.googleusercontent.com/aida-public/AB6AXuDufJQfJnzKUzAPIKAZ1SmcVhFvuBfPbZEn-PooUNzIzxL-EZtvmDH6yx-nM2gST2S9WnCSV7h1I6_piZkTazypWJ1x_x5f6iXb15oedH2SktQcAqUEatoS4zhuOXay940aheZnB7quZ24nvq0K_z0shUjwS-fji7mocnE4run0SyRSeqrouwLOieC0FvnTTCI-gNUnWez0SuIrVdURvMmmLOeUvE7v778cXsK7rVPK8mriQHQi_pUz',
+        image: wirelessHeadphones,
       },
     ],
     totalPrice: 4299000,
@@ -447,8 +459,7 @@ export const INITIAL_ORDERS: Order[] = [
         variant: 'Krem Hangat',
         price: 125000,
         quantity: 2,
-        image:
-          'https://lh3.googleusercontent.com/aida-public/AB6AXuAJbajhby6aW5bU3-zHtIMMarzQMmYz5bqplOcM5WinextXe_Xsl-k0vciQO413gdu3iy0KImXBBKhOiW73d6qhm5y2DcWSlaYO842vp6i-5VL22mX-XA6RNHbkkCX06958SjIQTYbJhFduglyckK9EYyN8MiO6nU5jUjKERHmHzCEqTu8JKSflmr0Je6dFdIOD-TNa9pgG1xBzvSSQChyvcbqHDWH5EXXBy-PWhqHSfMTorW6XR8BG',
+        image: mugKeramik,
       },
     ],
     totalPrice: 250000,
@@ -462,8 +473,7 @@ export const INITIAL_TRACKING: TrackingInfo = {
   trackingNumber: 'JNE12345678',
   courier: 'JNE Reguler',
   productName: 'Smartwatch Alpha Pro - Midnight Black',
-  productImage:
-    'https://lh3.googleusercontent.com/aida-public/AB6AXuDqjDPGuqyG8udIH4G8NJj1Hp1EucztO_GRDnOYbpvUIqYwVqg9eJ1Yis1xDeX1mo7K-v1f1mDGHaUAaQ34ttunppEnnn2FwI6VM0TDsweNt_tThBtiFM-JWE2sPKrTemGgbgZqgX1TcE3oZZBD4ObSepRwT3BK92X6iOJeZWJrxAafrRhuLcyocik1jA15jQDx_E_3uA7oCJaX-tO5THX-FItlNSn4OsZofel_aCku89BFYkjSEDkC',
+  productImage: smartwatchAmoled,
   itemCount: 1,
   estimatedArrival: '25 Mei',
   steps: [
@@ -534,12 +544,11 @@ export const INITIAL_NOTIFICATIONS: NotificationItem[] = [
   {
     id: 'notif-4',
     title: 'Ada barang yang tertinggal di keranjang!',
-    message: 'Smartwatch Pro Series 5 hampir habis. Segera selesaikan pembayaran Anda sebelum kehabisan stok.',
+    message: 'Smartwatch Pro 2024 hampir habis. Segera selesaikan pembayaran Anda sebelum kehabisan stok.',
     time: 'Kemarin',
     type: 'cart',
     isRead: true,
-    image:
-      'https://lh3.googleusercontent.com/aida-public/AB6AXuBE9e7E831TGGUhjD7d4e4mdrZBYZj5d1p50EJ2hDNRoWA3lP4V-NjifHUNiUagml6v1uRq5oBHkfLPfc80mumU8l3mNF1gdA04H7XoyfaggtsRpHgwokh3dfvoWi-BEoa5yNXRUYkYN5cSUqMt97IvrDbrMJX385doNdyc7ewynQyVN2Xs-t5FG56bwa752Cj65pTYnxoa7bGj0Us0Pd1A_qzaD5zEI-_Gw5i1hTNz2QSihu5r3Vh7',
+    image: smartwatchAmoled,
     actionScreen: 'cart',
     dateGroup: 'Kemarin',
   },
@@ -573,8 +582,7 @@ export const INITIAL_CONVERSATIONS: Conversation[] = [
         productAttachment: {
           name: 'Blus Sutra Elegan - Beige',
           price: 250000,
-          image:
-            'https://lh3.googleusercontent.com/aida-public/AB6AXuBpy-SK9LFlOGpnQrrrdADf9IILlgWzXQR0HmBep00uZXyegKMhyBoEp7emOndPGxXclXF8U5bccW4W_04FUpLXXKh2V69dPggU_aJHu8SnVdH-GHHiPOOVWGhuQ00X2eYDfl2pQUuZb5ur9L1Qm6jwHZeDsxfE9Sx3AnAihRfwJHNF-VjYYAetDQDESby5SAzU_xlMZVPcwFFp-aa8LH4D07PY0gyPfWydHbY250MvPptG1rIJZ_Fj',
+          image: blusSutra,
         },
       },
       {
@@ -683,8 +691,7 @@ export const INITIAL_SELLER_PRODUCTS = [
     stock: 45,
     salesCount: 120,
     status: 'Aktif',
-    image:
-      'https://lh3.googleusercontent.com/aida-public/AB6AXuDm1pBj5omPntye5q3F_dT-vqbCA6U0IjcmIp-LLnhHbm8BnICZBrR2AYq8Fgd-TevyT5QR4tbIKMQxWGM7GzMFrdbHbB_9TBittJ78-9uDQDPvmPdSQX7eVszrY7b4DTzwm53nXNvAdbjOOPbvs5syZ-yfDZfUQhHCwbYPLV5g4MrNKMq6D9WAXItqNKZb6tffqyBSojv_K1_KWESh1d5pfb8e49V3xUaQFbyQlWRHBz5sEGArXfSZ',
+    image: keyboardMekanik,
     price: 850000,
   },
   {
@@ -694,8 +701,7 @@ export const INITIAL_SELLER_PRODUCTS = [
     stock: 3,
     salesCount: 85,
     status: 'Stok Menipis',
-    image:
-      'https://lh3.googleusercontent.com/aida-public/AB6AXuCjUi3KGQSQiwxpicAgKlGL29aX17uIWz-Zkn-Yv6pHBXaoIJPUJZ1UWn7o4W1Kxj6sI_dhPBQ4-pojzcLc4slFHktZxK4BpEfAy5EqnX63pInMdZc9YFfuxPLpvGzVB-I_u55pLcRIS3f-ocwc2Ir-E1YA7Sn5fSnvFrFPwe6JjRUG9b0fLM9T65V_PodzhU1_e2AaEgvaCePQ_A-vHEHOTeFo_YVg_IeHyLsg3VGD1nS28YJiEQik',
+    image: gelasKeramik,
     price: 75000,
   },
 ];
